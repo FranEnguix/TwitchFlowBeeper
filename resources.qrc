@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/audio">
+        <file alias="default">audio/default.wav</file>
+        <file alias="highlight">audio/highlight.wav</file>
+    </qresource>
+    <qresource prefix="/img">
+        <file>img/logo.ico</file>
+    </qresource>
+    <qresource prefix="/css">
+        <file alias="style">src/pl/css/style.qss</file>
+    </qresource>
+    <qresource prefix="/data">
+        <file alias="userData">data/userData.json</file>
+        <file alias="account">data/account.json</file>
+    </qresource>
+</RCC>

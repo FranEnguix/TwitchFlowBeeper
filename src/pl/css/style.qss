@@ -1,0 +1,49 @@
+QScrollArea {
+ background-color: hsl(149, 17, 48);
+}
+
+QWidget#scrollContent {
+ background-color: rgba(0, 0, 0, 0%);
+}
+
+QWidget#CommentBox {
+ border-radius: 20px;
+ border: 1px solid hsl(145, 14, 66);
+ background-color: hsl(147, 18, 55);
+}
+
+QTextBrowser {
+ /*background-color: rgba(180, 180, 190, 100%);*/
+ background-color: hsl(147, 18, 55);
+ padding: 5px;
+ border: none;
+ border-bottom-right-radius: 20px;
+ border-bottom-left-radius: 20px;
+}
+
+QLabel#time {
+ color: hsl(120, 3, 109);
+}
+
+QScrollBar:vertical {
+ background-color: hsl(149, 17, 48);
+ width: 12px;
+}
+
+QScrollBar::handle:vertical {
+ background-color: hsl(144, 17, 32);
+ border-radius: 4px;
+ margin: 2px 2px 2px 2px;
+}
+
+QScrollBar::handle:vertical:hover {
+ background-color: hsl(144, 7, 2);
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+ background: none;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+ background-color: hsl(149, 17, 48);
+}

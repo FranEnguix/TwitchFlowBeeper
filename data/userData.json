@@ -1,0 +1,15 @@
+{
+  "volumen":
+  {
+    "espectadores": 20,
+    "destacados": 20
+  },
+  "destacados":
+  [
+  ],
+  "ignorados":
+  [
+    "nightbot",
+    "streamelements"
+  ]
+}
